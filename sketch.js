@@ -3,10 +3,6 @@ var invisible1, invisible2;
 var obstacle, obstacleGroup;
 var gameState = 1;
 
-function preload(){
-
-}
-
 function setup() {
     createCanvas(windowWidth,500);
     player = createSprite(50,height/2,35,35);
