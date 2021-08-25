@@ -50,7 +50,7 @@ function draw() {
 }
 
 function createWalls(){
-    if(frameCount % 30 == 0){
+    if(frameCount % 10 == 0){
         obstacle = createSprite(width+10,Math.round(random(35,465)), 10, Math.round(random(10,120)));
         obstacle.velocityX = -(6+score/100);
         obstacle.lifetime = 333;
