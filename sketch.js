@@ -17,6 +17,8 @@ function setup() {
 function draw() {
     background(5);
     
+    score += 3;
+    
         if(gameState == 1){
             score += Math.round(getFrameRate()/60);
     
